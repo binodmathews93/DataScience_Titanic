@@ -53,8 +53,8 @@ def main(project_dir):
     
     # file paths
     raw_data_path = os.path.join(os.path.pardir,'data','raw')
-    train_data_path = os.path.join(os.path.pardir,'train.csv')
-    test_data_path = os.path.join(os.path.pardir,'test.csv')
+    train_data_path = os.path.join(raw_data_path,'train.csv')
+    test_data_path = os.path.join(raw_data_path,'test.csv')
     
     # extract data
     extract_data(train_url,train_data_path)
